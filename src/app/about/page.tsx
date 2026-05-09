@@ -17,9 +17,10 @@ export default function About() {
           <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-purple-500/20 rounded-2xl rotate-3 scale-105 -z-10" />
           <div className="relative w-full h-full rounded-2xl overflow-hidden glass p-2 border-border/50 shadow-2xl">
             <Image
-              src="/images/avatar.png"
+              src="/images/professional_avatar.png"
               alt="Nurul Shaikh"
               fill
+              sizes="(max-width: 768px) 100vw, 384px"
               className="object-cover rounded-xl"
               priority
             />
